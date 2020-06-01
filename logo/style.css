@@ -1,0 +1,185 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-section {
+    background-image: url("images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 444px;
+}
+
+.head-section .head-body {}
+.head-section .head-body .best {
+    margin: 0 139.2px;
+}
+
+.head-section .head-body .best h2 {
+    font-size: 20px;
+}
+
+.head-section .head-body p
+{
+    font-size: 15px;
+}
+
+.head-section .logo p,
+.contact .logo p{
+    display: inline-block;
+    color: #88299A;
+    background: #FDFFFB;
+    padding: 2px 5px;
+}
+
+
+.head-section .fa i:hover {
+    color:#55efc4;
+    cursor: pointer;
+}
+
+.head-section .logo .o1,
+.contact .logo .o1{
+    transform: rotate(185deg);
+}
+
+.head-section .logo .g,
+.contact .logo .g{
+    padding: 6.3px 6px 3.2px;
+}
+
+.head-section .logo .o2,
+.contact .logo .o2{
+    transform: rotate(170deg);
+}
+
+.do .what h2,
+.choose h2,
+.client h2{
+    display: inline-block;
+    position: relative;
+}
+
+.do .what h2:after,
+.choose h2:after,
+.client h2:after{
+     content: '';
+     clear: both;
+     display: block;
+     height: 3px;
+     background: #812797;
+     position: absolute;
+     width: 100%;
+     margin: 5px 0;
+ }
+
+.do .what h2:before,
+.choose h2:before,
+.client h2:before{
+    content: '';
+    clear: both;
+    display: block;
+    height: 10px;
+    background: #812797;
+    position: absolute;
+    width: 20%;
+    margin: 5px 0;
+    top:90%;
+    left: 40%;
+}
+
+.do .growth {
+    margin-top: 71.1px;
+}
+
+.do .growth img {
+
+}
+
+.do .growth h4 {
+    font-size: 14.7px;
+    font-weight: bold;
+    padding: 17px 0 12.7px;
+}
+
+.do .growth p {
+    font-size: 13.4px;
+}
+
+.do .but {
+    background: #7F2892;
+    padding: 4.6px 11.8px;
+    border: transparent;
+    border-radius: 13.1px;
+    color: #ffff;
+    font-size: 14px;
+}
+
+.do .but:hover {
+    background: #5F0872;
+}
+
+.choose {}
+
+.choose ul  {}
+
+.choose ul li {
+    line-height: 2em;
+}
+.client .pp {
+    border-left: 2px solid red;
+
+
+}
+.client .dolor {
+    margin-left:20px;
+}
+.client .dolor img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.social h2 {
+    font-size: 20.6px;
+}
+
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 19.2px;
+}
+
+.contact {
+    background: #6A2587;
+}
+.contact .one {
+    font-size: 13.5px;
+}
+
+.contact .two {
+    font-size: 13.5px;
+}
+
+.contact .three {}
+.contact .four {}
+
+.contact h2 {
+    font-size: 14.4px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.contact input[type="submit"] {
+    background: #944FAF;
+    border: transparent;
+    padding: 5px 8px;
+    color: #fff;
+    margin-top: 18.2px;
+}
+
+.contact input[type="submit"]:hover {
+   background: #8A45A5;
+}
